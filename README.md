@@ -25,4 +25,11 @@ ROGen is a tool designed to create a batch of alt accounts for ROBLOX.
 ## Where are my accounts stored?
 
 Your accounts are stored in the file 'ROBLOSECURITYS'
+
 They are stored as .ROBLOSECURITY tokens from there you are able to access the account via the Token.
+
+## Extra Information
+
+- Auto Verification does not exist, that will manual until created.
+
+- This tool **does not** detect any errors; "name already exists", "innappropriate name", "username exceeds 20 characters"
