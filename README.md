@@ -5,8 +5,11 @@
 To setup this generator you will need to run this in the 'cmd'.
 
 `git clone https://username@bitbucket.org/teamsinspace/documentation-tests.git`
+
 `pip install selenium`
+
 `pip install colorama`
+
 `pip install pystyle`
 
 If a error pops up saying you don't have a certain import, pip install it.
