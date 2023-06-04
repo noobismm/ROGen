@@ -1,5 +1,4 @@
 import os
-print("test")
 import time
 import concurrent.futures
 import ctypes
