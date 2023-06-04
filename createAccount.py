@@ -45,7 +45,7 @@ lines = open(file_path, 'r').readlines()
 
 def writeTokentoFile(token):
     with open(file_path, "a") as file:
-        line = f"{token}\n"  # Replace with your desired line
+        line = f"\n{token}"  # Replace with your desired line
         file.write(line)
 
 def createAccount(username):
