@@ -6,17 +6,11 @@ ROGen is a tool designed to create a batch of alt accounts for ROBLOX.
 
 ## How to setup?
 
-To setup this generator you will need to run this in the 'cmd'.
-
-`git clone https://username@bitbucket.org/teamsinspace/documentation-tests.git`
-
-`pip install selenium`
-
-`pip install colorama`
-
-`pip install pystyle`
+Install and open createAccount.py
 
 If a error pops up saying you don't have a certain import, pip install it.
+
+This shouldn't happen since it automatically installs modules for you but if it does.
 
 ### Where to run it?
 
