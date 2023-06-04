@@ -1,5 +1,9 @@
 # ROGen
 
+## What is ROGen?
+
+ROGen is a tool designed to create a batch of alt accounts for ROBLOX.
+
 ## How to setup?
 
 To setup this generator you will need to run this in the 'cmd'.
@@ -18,17 +22,13 @@ If a error pops up saying you don't have a certain import, pip install it.
 
 You make open or create a folder and type "cmd" into the file location, from there you enter the git clone code.
 
-## What is ROGen?
-
-ROGen is a tool designed to create a batch of alt accounts for ROBLOX.
-
 ## Where are my accounts stored?
 
 Your accounts are stored in the file 'ROBLOSECURITYS'
 
 They are stored as .ROBLOSECURITY tokens from there you are able to access the account via the Token.
 
-## Extra Information
+## Additional Information
 
 - Auto Verification does not exist, that will manual until created.
 
