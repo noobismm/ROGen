@@ -36,5 +36,6 @@ They are stored as .ROBLOSECURITY tokens from there you are able to access the a
 
 ## TOS
 
-** Malicious use of the tool will be put onto yourself, not the owner of this repository**
-** Do not resell **
+**Malicious use of the tool will be put onto yourself, not the owner of this repository**
+
+**Do not resell**
