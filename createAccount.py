@@ -4,17 +4,28 @@ import concurrent.futures
 import ctypes
 import warnings
 
-from selenium import webdriver
-from selenium.webdriver.common.keys import Keys
-from selenium.webdriver.common.action_chains import ActionChains
-from selenium.webdriver.common.by import By
-from selenium.webdriver.support.ui import Select
-from selenium.webdriver.support.ui import WebDriverWait
-from selenium.webdriver.support import expected_conditions as EC
-
-from pystyle import Colorate, Colors, Center
+try:
+    from selenium import webdriver
+    from selenium.webdriver.common.keys import Keys
+    from selenium.webdriver.common.action_chains import ActionChains
+    from selenium.webdriver.common.by import By
+    from selenium.webdriver.support.ui import Select
+    from selenium.webdriver.support.ui import WebDriverWait
+    from selenium.webdriver.support import expected_conditions as EC
+    from selenium.webdriver.chrome.options import Options
+    from pystyle import Colorate, Colors, Center
+    from fake_useragent import UserAgent
+except ModuleNotFoundError:
+    print("Required modules not installed, installing now...")
+    os.system("python -m pip install --upgrade pip")
+    os.system("pip install selenium")
+    os.system("pip install pystyle")
+    os.system("pip install UserAgent"); os.system("pip install fake_useragent")
+    print("Successfully installed required modules.")
 
 default_password = "defaultpassword"
+
+options = Options()
 
 print(Center.XCenter(Colorate.Vertical(Colors.red_to_black, """
 
@@ -39,8 +50,15 @@ def writeTokentoFile(token):
 
 def createAccount(username):
     driver_path = 'chromedriver.exe'
-    driver = webdriver.Chrome(driver_path)
+
+    ua = UserAgent()
+    userAgent = ua.random
+    print(userAgent)
+    options.add_argument(f'user-agent={userAgent}')
+
+    driver = webdriver.Chrome(chrome_options=options, executable_path=r'driver_path')
     driver.get('https://www.roblox.com')
+
 
     username_box = driver.find_element('id', 'signup-username') 
     password_box = driver.find_element('id', 'signup-password')
