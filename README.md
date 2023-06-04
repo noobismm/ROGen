@@ -33,3 +33,8 @@ They are stored as .ROBLOSECURITY tokens from there you are able to access the a
 - Auto Verification does not exist, that will manual until created.
 
 - This tool **does not** detect any errors; "name already exists", "innappropriate name", "username exceeds 20 characters"
+
+## TOS
+
+** Malicious use of the tool will be put onto yourself, not the owner of this repository**
+** Do not resell **
