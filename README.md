@@ -3,6 +3,7 @@
 ## How to setup?
 
 To setup this generator you will need to run this in the 'cmd'.
+
 `git clone https://username@bitbucket.org/teamsinspace/documentation-tests.git`
 `pip install selenium`
 `pip install colorama`
